@@ -11,7 +11,7 @@ import datetime
 url = "opc.tcp://192.168.2.113:4048"
 #url = "opc.tcp://192.168.20.20:4840"
 client = Client(url)
-client.session_timeout = 30000
+client.session_timeout = 20000
 client.connect()
 print(f"Connected: {url}")
 
